@@ -1,0 +1,27 @@
+{
+  "name": "reduxtut",
+  "version": "1.0.0",
+  "description": "Use of redux, apply middleware and call async apis using thunk for practice purpose",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pyTuner/ReduxTut.git"
+  },
+  "keywords": [
+    "Redux",
+    "thunk",
+    "middleware"
+  ],
+  "author": "Tejas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pyTuner/ReduxTut/issues"
+  },
+  "homepage": "https://github.com/pyTuner/ReduxTut#readme",
+  "dependencies": {
+    "redux": "^5.0.1"
+  }
+}
