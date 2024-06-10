@@ -4,7 +4,8 @@
   "description": "Use of redux, apply middleware and call async apis using thunk for practice purpose",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,8 @@
   },
   "homepage": "https://github.com/pyTuner/ReduxTut#readme",
   "dependencies": {
-    "redux": "^5.0.1"
+    "axios": "^1.7.2",
+    "redux": "^5.0.1",
+    "redux-thunk": "^3.1.0"
   }
 }
