@@ -1,5 +1,5 @@
 const redux = require('redux');
-const thunk = require('redux-thunk')
+const thunk = require('redux-thunk').thunk
 const axios = require('axios');
 
 
@@ -90,8 +90,8 @@ const reducerFn = (state = initialState, action) => {
 
 
 // implimentation of store
-// const store = createStore(reducerFn,{ }, applyMiddleware(thunk));
-const store = createStore(reducerFn, applyMiddleware(thunk));
+const store = createStore(reducerFn,{ }, applyMiddleware(thunk));
+// const store = createStore(reducerFn, redux.compose(redux.applyMiddleware(thunk)));
 
 // subscribe store
 store.subscribe(() => console.log(store.getState()));
